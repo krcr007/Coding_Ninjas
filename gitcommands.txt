@@ -1,0 +1,53 @@
+# Git Commands - Step by Step Guide
+
+## Initial Setup
+git init
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+## Adding Files
+# Add specific file
+git add filename.txt
+
+# Add all files in current directory
+git add .
+
+# Add all files with specific extension
+git add *.py
+
+# Add all files in a folder
+git add foldername/
+
+## Check Status
+git status
+
+## Commit Changes
+git commit -m "Your commit message"
+
+## Connect to Remote Repository
+git remote add origin https://github.com/username/repo-name.git
+
+## Push to GitHub
+# First time push
+git push -u origin main
+
+# Regular push
+git push
+
+## Complete Workflow
+1. git add .
+2. git commit -m "Description of changes"
+3. git push
+
+## Useful Commands
+# See commit history
+git log --oneline
+
+# See differences
+git diff
+
+# Remove file from staging
+git reset filename.txt
+
+# Undo last commit (keep changes)
+git reset --soft HEAD~1
