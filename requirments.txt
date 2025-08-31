@@ -1,0 +1,16 @@
+langchain
+google
+huggingface-hub
+pandas
+numpy
+matplotlib
+langgraph
+langchain-community
+langchain-openai
+openai
+groq
+langchain-groq
+torch
+tensorflow
+torchvision
+torchaudio
