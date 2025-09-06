@@ -14,3 +14,4 @@ torch
 tensorflow
 torchvision
 torchaudio
+dotenv
